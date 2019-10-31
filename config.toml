@@ -37,7 +37,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   themeColor = "#494f5c"
 
   homeSubtitle = "Research scientist @ ENSTA Bretagne (Brest, Brittany, France)."
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  footerCopyright = ''
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -65,16 +65,16 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "github"
     url = "https://github.com/pcotret"
 
+  [[params.social]]
+    name = "gitlab"
+    url = "https://gitlab.com/pcotret"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/Pa0x73cal"
+
 [menu]
 
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
-  [[menu.main]]
-    name = "Networks"
-    url = "networks/"
-    weight = 15
   [[menu.main]]
     name = "About"
     url = "about-me/"

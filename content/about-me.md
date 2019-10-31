@@ -3,7 +3,11 @@ title = "About Me"
 date = "2019-08-03"
 +++
 
-Embedded systems, security, SDR, etc, etc.
+Embedded systems, security, SDR, and other stuff :)
 
-Please have a look at my [academic website](https://pascalcotret.wordpress.com/) for research stuff.
+This website is mainly about Github-related stuff (both personal and academic).
+
+- [Github repos](https://github.com/pcotret?tab=repositories)
+
+Please have a look at my [academic website](https://pascalcotret.wordpress.com/) for research purposes.
 
