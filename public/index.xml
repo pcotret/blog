@@ -30,7 +30,7 @@ sudo dpkg --add-architecture i386 sudo apt-get update sudo apt-get install build
       
       <guid>https://pcotret.github.io/about-me/</guid>
       <description>Embedded systems, security, SDR, and other stuff :)
-This website is mainly about Github-related stuff (both personal and academic).
+This website is mainly Github-related (both personal and academic).
  Github repos  Please have a look at my academic website for research purposes.</description>
     </item>
     
