@@ -1,89 +1,314 @@
 baseURL = "https://pcotret.github.io"
-languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Pascal Cotret"
-theme = "hermit"
-# enableGitInfo = true
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
-rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
-# disqusShortname = "yourdiscussshortname"
-
-[author]
-  name = "Pascal Cotret"
-
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
-
-[taxonomies]
-  tag = "tags"
-  # Categories are disabled by default.
-
+theme = "LoveIt"
+themesDir = "themes/"
+title = "Pascal Cotret @ ENSTA Bretagne"
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+[languages]
+  [languages.en]
+    weight = 1
+    languageCode = "en"
+    languageName = "English"
+    hasCJKLanguage = false
+    paginate = 5
+    googleAnalytics = ""
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "documentation"
+        pre = ""
+        post = ""
+        name = "Articles"
+        url = "/categories/articles/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "talks"
+        pre = ""
+        post = ""
+        name = "Talks"
+        url = "/categories/talks/"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 1
+    [languages.en.params]
+      description = "Pascal Cotret @ ENSTA Bretagne"
+      keywords = ["ENSTA", "Brest"]
+      [languages.en.params.app]
+        title = "Pascal Cotret @ ENSTA Bretagne"
+        noFavicon = false
+        svgFavicon = ""
+        themeColor = "#ffffff"
+        iconColor = "#5bbad5"
+        tileColor = "#da532c"
+      [languages.en.params.search]
+        enable = true
+        type = "algolia"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 30
+        highlightTag = "em"
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      [languages.en.params.home]
+        rss = 10
+        [languages.en.params.home.profile]
+          enable = true
+          gravatarEmail = ""
+          avatarURL = "/images/avatar.png"
+          subtitle = "Brest, Finistère, Bretagne"
+          typeit = true
+          social = true
+          disclaimer = ""
+        [languages.en.params.home.posts]
+          enable = true
+          paginate = 6
+      [languages.en.params.social]
+        GitHub = "pcotret"
+        Linkedin = "pascalcotret"
+        Twitter = "Pa0x73cal"
+        Gitlab = "pcotret"
+        Skype = "p.cotret"
+        Email = "prenom[dot]nom[at]gmail.com"
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#494f5c"
-
-  homeSubtitle = "Research scientist @ ENSTA Bretagne (Brest, Brittany, France)."
-  footerCopyright = ''
-  # bgImg = ""  # Homepage background-image URL
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/pcotret/repository/commit/"
-
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = true  # Set "text-align: justify" to `.content`.
-
-  relatedPosts = false  # Add a related content section to all single posts page
-
-  # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
-
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "email"
-    url = "mailto:pascal.cotret@ensta-bretagne.fr"
-
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/pascalcotret/"
-
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/pcotret"
-
-  [[params.social]]
-    name = "gitlab"
-    url = "https://gitlab.com/pcotret"
-
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/Pa0x73cal"
-
-[menu]
-
-  [[menu.main]]
-    name = "About"
-    url = "about-me/"
-    weight = 20
-  [[menu.main]]
-    name = "Talks"
-    url = "talks/"
-    weight = 20
-  [[menu.main]]
-    name = "Tech notes"
-    url = "https://github.com/pcotret/tech-notes"
-    weight = 20
+  version = "0.2.X"
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/dillonzq/LoveIt"
+  fingerprint = ""
+  dateFormat = "2006-01-02"
+ [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = "Pascal Cotret @ ENSTA Bretagne"
+      pre = ""
+      post = ""
+  [params.footer]
+    enable = false
+    custom = ''
+    hugo = true
+    copyright = true
+    author = true
+    since = 2019
+    icp = ""
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    [params.page.toc]
+      enable = true
+      auto = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 10
+    [params.page.math]
+      enable = false
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+    [params.page.mapbox]
+      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      navigation = false
+      geolocate = false
+      scale = false
+      fullscreen = false
+    [params.page.share]
+      enable = false
+      Twitter = false
+    [params.page.comment]
+      enable = false
+      [params.page.comment.disqus]
+        enable = false
+        shortname = ""
+      [params.page.comment.gitalk]
+        enable = false
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+      [params.page.comment.valine]
+        enable = false
+        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
+        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        placeholder = ""
+        avatar = "mp"
+        meta= ""
+        pageSize = 10
+        lang = ""
+        visitor = false
+        recordIP = false
+        highlight = false
+        enableQQ = false
+        serverURLs = ""
+      [params.page.comment.facebook]
+        enable = false
+        width = "100%"
+        numPosts = 10
+        appId = ""
+        languageCode = ""
+      [params.page.comment.telegram]
+        enable = false
+        siteID = ""
+        limit = 5
+        height = ""
+        color = ""
+        colorful = true
+        dislikes = false
+        outlined = false
+      [params.page.comment.commento]
+        enable = false
+    [params.page.seo]
+      [params.page.seo.publisher]
+        name = "xxxx"
+        [params.page.seo.publisher.logo]
+          url = "logo.png"
+          width = 127
+          height = 40
+      [params.page.seo.logo]
+        url = "logo.png"
+        width = 127
+        height = 40
+      [params.page.seo.image]
+        url = "cover.png"
+        width = 800
+        height = 600
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+  [params.analytics]
+    enable = false
+    [params.analytics.google]
+      id = ""
+      anonymizeIP = true
+      cookie = false
+    [params.analytics.fathom]
+      id = ""
+      server = ""
+  [params.cdn]
+    normalizeCSS = ""
+    fontawesomeFreeCSS = ""
+    simpleIconsPrefix = ""
+    animateCSS = ""
+    smoothScrollJS = ""
+    autocompleteJS = ""
+    lunrJS = ""
+    algoliasearchJS = ""
+    lazysizesJS = ""
+    objectFitImagesJS = ""
+    twemojiJS = ""
+    lightgalleryCSS = ""
+    lightgalleryJS = ""
+    lightgalleryThumbnailJS = ""
+    lightgalleryZoomJS = ""
+    clipboardJS = ""
+    sharerJS = ""
+    typeitJS = ""
+    katexCSS = ""
+    katexJS = ""
+    katexAutoRenderJS = ""
+    katexCopyTexCSS = ""
+    katexCopyTexJS = ""
+    katexMhchemJS = ""
+    mermaidJS = ""
+    echartsJS = ""
+    echartsMacaronsJS = ""
+    mapboxGLCSS = ""
+    mapboxGLJS = ""
+    aplayerCSS = ""
+    aplayerJS = ""
+    metingJS = ""
+    gitalkCSS = ""
+    gitalkJS = ""
+    valineJS = ""
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+[author]
+  name = "Pascal"
+  email = ""
+  link = ""
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+[Permalinks]
+  posts = ":filename"
+[privacy]
+  [privacy.googleAnalytics]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
