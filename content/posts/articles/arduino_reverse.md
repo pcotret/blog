@@ -19,7 +19,7 @@ toc:
 
 ## Prerequisites
 - [`arduino-cli`](https://github.com/arduino/arduino-cli): Command Line Interface for Arduino
-- AVR cross compiler: https://github.com/arduino/arduino-cli
+- AVR cross compiler: `sudo apt install gcc-avr`
 - Optional: an Arduino simulator such as [SimulIDE](https://simulide.blogspot.com/)
 
 ## Sample program
