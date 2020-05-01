@@ -57,18 +57,6 @@ enableEmoji = true
         themeColor = "#ffffff"
         iconColor = "#5bbad5"
         tileColor = "#da532c"
-      [languages.en.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 30
-        highlightTag = "em"
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
