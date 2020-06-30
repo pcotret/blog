@@ -1,7 +1,7 @@
 ---
 weight: 1
-title: "Activate Coresight components in a Yocto environment for the Zedboard board"
-date: 2020-06-29-06T00:00:00+08:00
+title: "Activate Coresight components in a Yocto environment for the Zedboard"
+date: 2020-06-29T00:00:00+08:00
 lastmod: 2020-06-29T00:00:00+08:00
 draft: false
 author: "Pascal"
