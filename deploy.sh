@@ -15,6 +15,8 @@ cd public
 cp -R * ../../pcotret.github.io
 
 # Commit changes.
+cd ../../pcotret.github.io
+git add *
 msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
