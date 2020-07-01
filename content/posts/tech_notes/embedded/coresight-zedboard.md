@@ -329,6 +329,6 @@ This can be done by modifying a parameter in [machine-include-default.inc](https
 ```diff
 # Kernel Configuration
 - PREFERRED_PROVIDER_virtual/kernel ??= "linux-xlnx"
-+ PREFERRED_PROVIDER_virtual/kernel ??= "linux-xlnx"
++ PREFERRED_PROVIDER_virtual/kernel ??= "linux-xlnx-dev"
 ```
 This information was given in a kernel recipe file of the [meta-xilinx](https://github.com/Xilinx/meta-xilinx/blob/master/meta-xilinx-bsp/recipes-kernel/linux/linux-xlnx-dev.bb) layer.
