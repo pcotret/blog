@@ -169,9 +169,10 @@ index 58f163c..2b8763a 100644
 +LINUX_VERSION = "5.4"
  KBRANCH ?= "xlnx_rebase_v4.19"
  SRCREV ?= "b983d5fd71d4feaf494cdbe0593ecc29ed471cb8"
-``̀
+```
 
 Furthermore, this has been updated only in the `5.6` release of the Linux kernel: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=9b0b308a1586f620a49c50605ae8abf509190661&h=master
+
 ```diff
 --- a/arch/arm/boot/dts/zynq-7000.dtsi
 +++ b/arch/arm/boot/dts/zynq-7000.dtsi
