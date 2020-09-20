@@ -17,7 +17,8 @@ toc:
 
 ## Prerequisites for Ubuntu 20
 ```bash
-sudo apt install libgcrypt20-dev libglib2.0-dev libc-ares-dev libssh-dev libpcap-dev libsystemd-dev qtbase5-dev qttools5-dev qtmultimedia5-dev
+sudo apt install libgcrypt20-dev libglib2.0-dev libc-ares-dev libssh-dev libpcap-dev \
+libsystemd-dev qtbase5-dev qttools5-dev qtmultimedia5-dev
 ```
 ## Download and build
 ```bash
