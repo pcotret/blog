@@ -4,4 +4,4 @@
 	branch = master
 [submodule "themes/LoveIt"]
 	path = themes/LoveIt
-	url = https://github.com/dillonzq/LoveIt
+	url = https://github.com/pcotret/LoveIt
