@@ -76,6 +76,7 @@ enableEmoji = true
         Twitter = "Pa0x73cal"
         Gitlab = "pcotret"
         Skype = "p.cotret"
+        Rootme = "Pa0x73cal"
         Email = "prenom[dot]nom[at]gmail.com"
 [params]
   version = "0.2.X"
