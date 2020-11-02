@@ -57,6 +57,15 @@ enableEmoji = true
         themeColor = "#ffffff"
         iconColor = "#5bbad5"
         tileColor = "#da532c"
+      [languages.en.params.search]
+        enable = true
+        type = "lunr"
+        contentLength = 4000
+        placeholder = ""
+        maxResultLength = 10
+        snippetLength = 30
+        highlightTag = "em"
+        absoluteURL = false
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
@@ -120,6 +129,7 @@ enableEmoji = true
     linkToMarkdown = true
     [params.page.toc]
       enable = true
+      keepStatic = false
       auto = true
     [params.page.code]
       copy = true
