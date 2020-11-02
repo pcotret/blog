@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "Lockdown setup - Working an IPEVO document camera"
+title: "Lockdown setup - Working with an IPEVO document camera"
 date: 2020-11-02T00:00:00+08:00
 lastmod: 2020-11-02T00:00:00+08:00
 draft: false
