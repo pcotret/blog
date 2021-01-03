@@ -12,7 +12,7 @@ enableEmoji = true
     languageCode = "en"
     languageName = "English"
     hasCJKLanguage = false
-    paginate = 5
+    paginate = 6
     googleAnalytics = ""
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -21,6 +21,14 @@ enableEmoji = true
         post = ""
         name = "Categories"
         url = "/categories/"
+        title = ""
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "ctf"
+        pre = ""
+        post = ""
+        name = "CTF"
+        url = "/categories/ctf"
         title = ""
         weight = 4
       [[languages.en.menu.main]]
