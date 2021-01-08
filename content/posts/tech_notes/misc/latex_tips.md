@@ -2,7 +2,7 @@
 weight: 1
 title: "LateX tips"
 date: 2020-01-01T00:00:00+08:00
-lastmod: 2020-01-01T00:00:00+08:00
+lastmod: 2021-01-08T00:00:00+08:00
 draft: false
 author: "Pascal"
 
@@ -15,7 +15,20 @@ toc:
   auto: false
 ---
 
+## Generating random numbers in LateX
+
+The following code will generate a random number within a range for each compilation
+
+```tex
+\pgfmathsetseed{\number\pdfrandomseed}
+\newcommand{\thecmd}[2]{ 
+	\pgfmathsetmacro{\thenum}{int(random(#1,#2))}
+	\thenum
+}
+```
+
 ## Using `ttfamily` with `bfseries` in a listing
+
 Default font doesn't implement bold style:
 ```latex
 \renewcommand{\ttdefault}{pcr}
