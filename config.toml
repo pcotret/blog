@@ -80,7 +80,7 @@ enableEmoji = true
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          subtitle = "Brest, Finistère, Bretagne"
+          subtitle = "QnJlc3QsIEZpbmlzdMOocmUsIEJyZXRhZ25l"
           typeit = true
           social = true
           disclaimer = ""
@@ -92,9 +92,9 @@ enableEmoji = true
         Linkedin = "pascalcotret"
         Twitter = "Pa0x73cal"
         Gitlab = "pcotret"
-        Skype = "p.cotret"
         Rootme = "Pa0x73cal"
-        Email = "prenom[dot]nom[at]gmail.com"
+        Newbie = "index.php?page=info_membre&id=88970"
+        Email = "echo @gmail.com | sed 's/^/firstname.lastname/'"
 [params]
   version = "0.2.X"
   defaultTheme = "auto"
