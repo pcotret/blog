@@ -94,6 +94,7 @@ enableEmoji = true
         Gitlab = "pcotret"
         Rootme = "Pa0x73cal"
         Newbie = "index.php?page=info_membre&id=88970"
+        CryptoHack = "Pa0x73cal"
         Email = "echo @gmail.com | sed 's/^/firstname.lastname/'"
 [params]
   version = "0.2.X"
