@@ -12,6 +12,6 @@ lightgallery: true
 
 Hope you'll find something of interest :wink:
 
-For research purposes, please visit my academic webpage: https://pascalcotret.wordpress.com/
+For research purposes, please visit my academic webpage: https://pcotret.gitlab.io
 
 
