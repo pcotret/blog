@@ -2,7 +2,7 @@ baseURL = "https://pcotret.github.io"
 defaultContentLanguage = "en"
 theme = "LoveIt"
 themesDir = "themes/"
-title = "Pascal Cotret personal blog"
+title = "Github personal blog"
 enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
@@ -56,10 +56,10 @@ enableEmoji = true
         title = ""
         weight = 1
     [languages.en.params]
-      description = "Pascal Cotret @ ENSTA Bretagne"
-      keywords = ["ENSTA", "Brest"]
+      description = "Github personal blog"
+      keywords = ["un", "deux"]
       [languages.en.params.app]
-        title = "Pascal Cotret @ ENSTA Bretagne"
+        title = "Github personal blog"
         noFavicon = false
         svgFavicon = ""
         themeColor = "#ffffff"
@@ -107,7 +107,7 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       logo = ""
-      name = "Pascal Cotret @ ENSTA Bretagne"
+      name = "Github personal blog"
       pre = ""
       post = ""
   [params.footer]
