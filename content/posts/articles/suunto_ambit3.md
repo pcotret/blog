@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "Suunto Ambit and Linux"
-date: 2022-03-18T00:00:00+08:00
-lastmod: 2022-03-18T00:00:00+08:00
+date: 2022-12-26T00:00:00+08:00
+lastmod: 2022-12-26T00:00:00+08:00
 draft: false
 author: "Pascal"
 
