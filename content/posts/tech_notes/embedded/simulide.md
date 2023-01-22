@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: "Quick start guide for SimulIDE as an Arduino simulator"
-date: 2020-04-30T00:00:00+08:00
-lastmod: 2020-04-30T00:00:00+08:00
+date: 2023-01-22T00:00:00+08:00
+lastmod: 2023-01-22T00:00:00+08:00
 draft: false
 author: "Pascal"
 
