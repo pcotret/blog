@@ -56,10 +56,10 @@ enableEmoji = true
         title = ""
         weight = 1
     [languages.en.params]
-      description = "Github personal blog"
-      keywords = ["un", "deux"]
+      description = "Pascal Github page"
+      keywords = ["pascal", "cotret"]
       [languages.en.params.app]
-        title = "Github personal blog"
+        title = "Pascal Github page"
         noFavicon = false
         svgFavicon = ""
         themeColor = "#ffffff"
@@ -80,7 +80,7 @@ enableEmoji = true
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
-          subtitle = "QnJlc3QsIEZpbmlzdGVyZSwgQnJldGFnbmU="
+          subtitle = ""
           typeit = true
           social = true
           disclaimer = ""
@@ -89,9 +89,9 @@ enableEmoji = true
           paginate = 6
       [languages.en.params.social]
         GitHub = "pcotret"
+        Gitlab = "https://pcotret.gitlab.io"
         Linkedin = "pascalcotret"
         Twitter = "Pa0x73cal"
-        #Gitlab = "https://pcotret.gitlab.io"
         Rootme = "Pa0x73cal"
         #Newbie = "index.php?page=info_membre&id=88970"
         #CryptoHack = "Pa0x73cal"
