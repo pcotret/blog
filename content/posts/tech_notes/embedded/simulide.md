@@ -2,7 +2,7 @@
 weight: 1
 title: "Quick start guide for SimulIDE as an Arduino simulator"
 date: 2023-01-22T00:00:00+08:00
-lastmod: 2023-01-22T00:00:00+08:00
+lastmod: 2024-09-11T00:00:00+08:00
 draft: false
 author: "Pascal"
 
@@ -19,8 +19,8 @@ toc:
 
 ## Downloading tools
 
-- [SimulIDE](https://www.simulide.com/p/downloads.html) : **Last Stable Version (0.4.15)**. For Linux, please prefer the `Linux64` archive. 
-- [Arduino](https://www.arduino.cc/en/Main/Software). **Legacy IDE (1.8.X)**. Download the `Windows ZIP file` or the `Linux 64 bits` archive.
+- [SimulIDE](https://www.simulide.com/p/downloads.html) : **Last Stable Version (1.1.10)**. For Linux, please prefer the `Linux64` archive. 
+- [Arduino](https://www.arduino.cc/en/Main/Software). **Legacy IDE (1.8.19)**. Download the `Windows ZIP file` or the `Linux 64 bits` archive.
 
 Note : for Ubuntu/Debian derivatives, you should install a few libraries to make SimulIDE working:
 
